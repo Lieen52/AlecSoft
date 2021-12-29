@@ -1,0 +1,202 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- titulo seccion-->
+<link rel="stylesheet" href="css/index.css">
+    <section class="SeccionTitulo" id="home">
+        <img src="~/imagenes\camaras.png" alt="" id="camaras">
+        <img src="~/imagenes\universidad2.png" alt="" id="universidad">
+        <img src="~/imagenes\puentes2prueba.png" alt="" id="puente">
+        @*<h1 id="frase">MANTENTE SEGURO CON NUESTROS PRODUCTOS</h1>*@
+        <h2 id="titulo">Alectrol SPA</h2>
+    </section>
+
+    <!-- Fin titulo seccion-->
+    <!-- Nosotros seccion-->
+    <section class="nosotros" id="nosotros">
+        <h1 class="heading"> <span>NUESTRO</span> EQUIPO</h1>
+        <div class="row">
+            <div class="image">
+                <img src="~/imagenes/camara2.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Descubre más con nosotros</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Blanditiis quia quidem ut quisquam quos tenetur, sint culpa.
+                    Eum, quibusdam! Optio
+                    cupiditate magni qui nihil quia facere deserunt vero illo cum.</p>
+                <a href="#" class="btn"> SABER MAS</a>
+
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- Fin nosotros seccion-->
+
+    <!-- slider seccion  -->
+    <!--   contenido slider  -->
+
+    <section id="productos"></section>
+    <section class="slider">
+        <div class="container-all">
+            <input type="radio" id="1" name="image-slide" hidden>
+            <input type="radio" id="2" name="image-slide" hidden>
+            <input type="radio" id="3" name="image-slide" hidden>
+
+
+            <div class="slide">
+                <div class="item-slide">
+                    <picture>
+                        <img src="~/imagenes/camara1.jpg">
+                    </picture>
+                </div>
+
+                <div class="item-slide">
+                    <picture>
+                        <img src="~/imagenes/camara2.jpg">
+                    </picture>
+                </div>
+
+                <div class="item-slide">
+                    <picture>
+                        <img src="~/imagenes/camara3.jpg">
+                    </picture>
+                </div>
+            </div>
+            <div class="pagination">
+
+                <label class="pagination-item" for="1">
+                    <picture>
+                        <img src="~/imagenes/camara1.jpg">
+                    </picture>
+                </label>
+                <label class="pagination-item" for="2">
+                    <picture>
+                        <img src="~/imagenes/camara2.jpg">
+                    </picture>
+                </label>
+                <label class="pagination-item" for="3">
+                    <picture>
+                        <img src="~/imagenes/camara3.jpg">
+                    </picture>
+                </label>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    mellado
+
+    <!-- FIN contenido slider -->
+
+    <!-- Fin slider seccion -->
+    <!-- servicios seccion -->
+    <!--  contenido 2-->
+    <section class="Contenedor2" id="menu">
+        <div class="conatainer">
+            <div class="seviceBox2">
+                <div class="icon2">
+                    <img src="~/imagenes/OtroServicios/confiar.png">
+                </div>
+                <div class="content2">
+                    <h3>Confiar</h3>
+                    <p>Lorem ipsum dolor sit am ue ducimus facere at!</p>
+                </div>
+            </div>
+            <div class="seviceBox2">
+                <div class="icon2">
+                    <img src="~/imagenes/OtroServicios/asegurado.png">
+                </div>
+                <div class="content2">
+                    <h3>Seguridad</h3>
+                    <p>Lorem ipsum dolor sit amet consecte eque ducimus facere at!</p>
+                </div>
+            </div>
+            <div class="seviceBox2">
+                <div class="icon2">
+                    <img src="~/imagenes/OtroServicios/camara-de-seguridad.png">
+                </div>
+                <div class="content2">
+                    <h3>Camaras</h3>
+                    <p>Lorem ipsum dolor sit amet ducimus facere at!</p>
+                </div>
+            </div>
+            <div class="seviceBox2">
+                <div class="icon2">
+                    <img src="~/imagenes/OtroServicios/seguro-de-hogar.png">
+                </div>
+                <div class="content2">
+                    <h3>Tu Hogar</h3>
+                    <p>Lorem ipsum dolor sit amet consec neque ducimus facere at!</p>
+                </div>
+            </div>
+            <div class="seviceBox2">
+                <div class="icon2">
+                    <img src="~/imagenes/OtroServicios/seguro-familiar.png">
+                </div>
+                <div class="content2">
+                    <h3>Protección Familiar</h3>
+                    <p>Lorem ipsum dolor sit amet consectetu neque ducimus facere at!</p>
+                </div>
+            </div>
+            <div class="seviceBox2">
+                <div class="icon2">
+                    <img src="~/imagenes/OtroServicios/trabajador.png">
+                </div>
+                <div class="content2">
+                    <h3>Nuestros Trabajadores</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- FIN contenido 2-->
+    <!-- fin  servicios seccion-->
+
+    <!-- contenido 3 -->
+    <!-- Mapa seccion -->
+    <section id="contactos"></section>
+    <section class="contacto" id="contact">
+        <h1 class="heading"><span>COMUNICATE</span> CON NOSOTROS</h1>
+        <div class="row">
+
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.0628687716544!2d-70.63588758515134!3d-33.49974140742904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662dabb2b3b1c51%3A0x4e4aa323a8563b8c!2sJuan%20Griego%204656-4556%2C%20San%20Joaqu%C3%ADn%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1635381440677!5m2!1ses!2scl"
+                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <form action="">
+                <div class="inputBox">
+
+                    <input type="text" placeholder="Nombre">
+                </div>
+                <div class="inputBox">
+
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="inputBox">
+
+                    <input type="text" placeholder="Telefono">
+                </div>
+                <input type="submit" value="Contactanos" class="btn">
+
+            </form>
+
+
+        </div>
+
+
+    </section>
+    <!-- FIN contenido 3-->
+    <!-- Fin Mapa seccion -->
+
+
